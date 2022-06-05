@@ -1,3 +1,8 @@
+!pip install selenium
+!apt-get update
+!apt install chromium-chromedriver
+!cp /usr/lib/chromium-browser/chromedriver /usr/bin
+
 import time
 from selenium import webdriver
 
